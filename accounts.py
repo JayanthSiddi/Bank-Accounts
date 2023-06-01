@@ -153,8 +153,8 @@ if __name__ == "__main__":
     a1.printBalance()
     print('-'*50)
 
-    #Creating third Account
-    a2 = PremiumAccount("Wince",5000,2500)
+    #Creating Second Account
+    a2 = PremiumAccount("Stella",5000,2500)
     a2.issueNewCard()#Issuing card
     print(a2)  # calling __str__() method
     a2.deposit(100)
