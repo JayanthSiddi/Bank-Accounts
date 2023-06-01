@@ -154,7 +154,7 @@ if __name__ == "__main__":
     print('-'*50)
 
     #Creating third Account
-    a2 = PremiumAccount("Jayanth",5000,2500)
+    a2 = PremiumAccount("Wince",5000,2500)
     a2.issueNewCard()#Issuing card
     print(a2)  # calling __str__() method
     a2.deposit(100)
